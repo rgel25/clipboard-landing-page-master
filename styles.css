@@ -86,6 +86,12 @@ img {
   background-color: var(--light-blue);
 }
 
+.btn:hover {
+  cursor: pointer;
+  opacity: 70%;
+  color: white;
+}
+
 /* END OF LANDING PAGE */
 /* START OF FEATURE first */
 .feature-first {
@@ -291,6 +297,11 @@ img {
 .socials p {
   font-size: 2em;
   color: var(--dark-grayish-blue);
+}
+
+.socials i:hover,
+.footer-menu p:hover {
+  color: var(--strong-cyan);
 }
 
 /* END OF FOOTER */
